@@ -2,6 +2,10 @@
 
 This library is meant for Arduino application using the Athena bootloader. The library will create a server which can be used to remotely reset the device, as well as to remotely enter the bootloader mode so a sketch can be uploaded via TFTP.
 
+## Dependencies
+
+This library requires you to have the [AthenaEEPROM](https://github.com/embeddedartistry/AthenaEEPROM) library installed.
+
 ## Files
 
 The source files for this library are:

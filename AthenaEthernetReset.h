@@ -1,15 +1,7 @@
 #ifndef AthenaEthernetReset_h
 #define AthenaEthernetReset_h
 
-#include <Arduino.h>
-#include <AthenaEEPROM.h>
 #include <Ethernet.h>
-#include <EthernetClient.h>
-#include <EthernetServer.h>
-#include <SPI.h>
-#include <avr/pgmspace.h>
-#include <avr/wdt.h>
-#include <string.h>
 
 #ifndef ETHERNETRESET_DEBUG
 #define ETHERNETRESET_DEBUG 0

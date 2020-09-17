@@ -17,9 +17,9 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
+#include "AthenaEthernetReset.h"
 #include <Arduino.h>
 #include <AthenaEEPROM.h>
-#include "AthenaEthernetReset.h"
 #include <SPI.h>
 #include <avr/pgmspace.h>
 #include <avr/wdt.h>

@@ -111,7 +111,7 @@ void AthenaEthernetReset::check()
 					else if(!strncmp(url, "reprogram", 9))
 					{
 						stdResponse("Arduino will reset for reprogramming in 2 seconds");
-						EEPROM.writeImgBad();
+						EEPROM.enableUpdateMode();
 						watchdogReset();
 					}
 					else
